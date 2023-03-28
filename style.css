@@ -1,0 +1,652 @@
+@media screen and (min-width:701px) {
+  
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+body{
+ 
+  font-family: 'Public Sans';
+}
+p{
+  font-size: 18px;
+ color: hsl(233, 8%, 62%);
+}
+.the-top{ 
+ 
+  margin-left: 90px;
+}
+header{
+  height: 70px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+  
+}
+.ha{
+  position: absolute;
+  bottom: 25%;
+}
+
+header  ul li{
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+  padding: 13px 2px;
+  
+  position: relative;
+}
+header ul li a:hover:before{
+ content: "";
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(120deg,hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 60%);
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+header ul{
+position: absolute;
+left: 25%;
+top: 1px;
+ 
+}
+header ul li a {
+  text-decoration:none;
+color: #838080c4;
+
+}
+
+header ul li a:hover{
+  
+  color: #000;
+}
+
+
+
+ .ho {
+  text-decoration:none;
+color:rgb(255, 255, 255);
+background: linear-gradient(120deg,hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 60%);
+border-radius: 20px 20px;
+
+padding: 10px 30px;
+position:absolute;
+right: 11%;
+
+bottom: 10px;
+
+}
+.ho:hover{
+  background: linear-gradient(120deg,hsla(136, 65%, 51%, 0.564) 5%, hsla(192, 70%, 51%, 0.568) 60%);
+}
+
+ .page1{
+
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background-color:hsl(0, 0%, 98%);
+
+}
+.page11{
+
+  height:111%;
+  width: 50%;
+  background-image: url("bg-intro-desktop.svg");
+  background-position: left bottom;
+  background-size: 160% 130% ;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  
+  
+  
+  }
+  .page13{
+     height: 750px;
+    width: 40%;
+     background-image: url("image-mockups.png");
+     background-position: left bottom ;
+    background-size:120% 115% ;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    z-index: 13;
+  } 
+  
+
+.page12{
+
+  padding-top:100px ;
+margin-left: 15px;
+
+
+}
+.page12 h1{
+  width: 500px;
+  font-size: 60px;
+font-weight: 100;
+padding-bottom: 20px;
+}
+.page12 p{
+  width: 450px;
+}
+ .ho0 {
+  display: inline-block;
+  text-decoration:none;
+color:aliceblue;
+background: linear-gradient(120deg,hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 60%);
+border-radius: 20px 20px;
+padding: 10px 30px;
+margin-top: 20px;
+}
+.ho0:hover{
+  background: linear-gradient(120deg,hsla(136, 65%, 51%, 0.564) 5%, hsla(192, 70%, 51%, 0.568) 60%);
+ }
+.page2{
+  width: 100%;
+  height: 600px;
+  background-color: hsl(220, 16%, 96%);
+
+}
+
+
+
+
+.page21{
+ padding-top: 100px;
+}
+.page21 h1{
+  font-size:50px ;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+
+.page21 p{
+ width: 650px;
+  padding-bottom: 50px;
+}
+.page22 {
+  height: 285px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.page22 div {
+ height: 285px;
+ width: 24%;
+ margin-right: 10px;
+ overflow: auto;
+}
+
+
+.page22 h3{
+  font-weight: 100;
+  font-size: 22px;
+  color: rgb(87, 86, 86);
+  margin: 22px 0px;
+}
+
+.page3{
+  width: 100%;
+  height: 600px;
+  background-color:hsl(0, 0%, 98%);
+  padding-bottom: 30px;
+}
+
+.page3 h1{
+
+  font-size:50px ;
+  font-weight: 100;
+padding-top: 100px;
+  padding-bottom: 30px;
+}
+ .page31{
+ 
+  width:100%;
+display: flex;
+}
+
+
+.page31 div {
+ 
+  width: 21%;
+ background-color: #ffffff;
+ margin-right: 30px ;
+ border-radius: 5px;
+ overflow: auto;
+ }
+
+.page31 div  img{
+width: 100%;
+height: 45%;
+  border-radius: 5px;
+  
+} 
+.page31 div  h6{
+  color: hsl(233, 8%, 62%);
+   margin-left: 20px;
+   font-weight: 100;
+   margin-top: 10px;
+   margin-bottom: 11px;
+   font-size: 13px;
+} 
+
+     .page31 div a{
+     display: inline-block;
+     width: 80%;
+     font-size: 18px;
+     margin-left: 20px;
+      text-decoration: none;
+      color: #444444;
+      
+      } 
+    .page31 div a:hover{
+      color: hsl(136, 65%, 51%);
+    }
+ .page31 div p{
+      width: 90%;
+  font-size: 15px;
+   margin-left: 20px;
+     
+       margin-top: 10px;
+      } 
+      
+    .page4{
+      width: 100%;
+      height: 190px;
+      background-color: hsl(233, 26%, 24%);
+      display: flex;
+  position: relative;
+
+    }
+             
+
+.page40 {
+margin-left:90px;
+  margin-top: 40px;
+}
+.page41  {
+  margin-top: 30px;
+  }
+
+
+.page41  a{
+margin-right: 10px;
+margin-top: 30px;
+}
+#page40-1 img{
+height: 25px;
+}
+.page41  img{
+ height: 20px;
+  }
+.page42 {
+  margin-left:7%;
+  
+  }
+  .page41 a:hover{
+filter: invert(89%) sepia(30%) saturate(10016%) hue-rotate(150deg) brightness(274%) contrast(96%);
+}
+
+
+.page42 a{
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.page42 a:hover{
+  color:hsl(136, 65%, 51%);
+ 
+  
+}
+.page42 li{
+margin-right: 30px;
+margin-top: 20px;
+  padding-left: 0;
+}
+.page42 ul{
+    list-style: none;
+margin: 40px 0 40px 30px;
+
+}
+.page44 {
+position: absolute;
+right: 5%;
+top: 20%;
+
+
+}
+.ho1 {
+  text-decoration:none;
+color:rgb(255, 255, 255);
+background: linear-gradient(120deg,hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 60%);
+border-radius: 30px 30px;
+font-size: 18px;
+padding:10px 30px;
+display: inline-block;
+
+
+
+}
+.ho1:hover{
+  background: linear-gradient(120deg,hsla(136, 65%, 51%, 0.564) 5%, hsla(192, 70%, 51%, 0.568) 60%);
+}
+
+.page44 p{
+  margin-top: 30px;
+margin-left: 20px;
+  font-size: 15px;
+} 
+.page44 a{
+  margin-left: 60px;
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+ body{
+   font-family: 'public Sans';
+  } 
+  p, h6{
+    line-height: 1.6;
+    color: hsl(233, 8%, 62%);
+  }
+header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-image: url("icon-hamburger.svg");
+  background-repeat:no-repeat ;
+   background-position: 95%;
+  background-size: 30px;
+  background-color:white
+}
+header ul{
+  display: none;
+}
+.ho{
+  display: none;
+}
+.ha img{
+  margin-top: 20px;
+width: 200px;
+}
+
+.page1{
+  
+  width: 100%;
+  position: relative;
+  background-color:hsl(0, 0%, 98%);
+
+}
+
+.page11{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position:right ;
+  background-size: 100%;
+  background-image: url("bg-intro-mobile.svg");
+}
+
+.page13{
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position:right bottom ;
+  background-size: 100% 130%;
+  position: absolute;
+  background-image: url("image-mockups.png");
+}
+.page12{
+padding-top: 110px;
+  width: 100%;
+  text-align: center;
+}
+.page12 h1{
+  width: 80%;
+  margin-left: auto;
+margin-right: auto;
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  
+}
+.page12 p{
+width: 80%;
+
+margin-left: auto;
+margin-right: auto;
+  font-size: 20px;
+  padding-bottom: 30px;
+  
+  
+}
+.ho0{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  background: linear-gradient(120deg,hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 60%);
+  border-radius: 20px 20px;
+  padding: 10px 30px;
+display: inline-block;
+margin-bottom: 100px;
+}
+.page2{
+ width: 100%;
+padding: 40px 0; 
+ background-color: hsl(220, 16%, 96%);
+text-align: center;
+}
+.page21{
+  width: 100%;
+padding-bottom: 40px;
+}
+.page21 h1{
+  font-weight: 100;
+  padding-top: 100px;
+  font-size: 40px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px ;
+}
+
+
+.page21 p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+    
+  }
+
+.page22{
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.page22 div{
+  width: 100%;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+.page22 img {
+  width: 20%;
+}
+.page22 h3{
+  font-weight: 100;
+  margin: 20px 0;
+  font-size: 23px;
+}
+.page22 p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+  }
+
+.page3{
+  width: 100%;
+  background-color:hsl(0, 0%, 98%);
+  padding-bottom:100px;
+}
+
+.page3 h1{
+text-align: center;
+font-weight: 100;
+padding-top: 100px;
+padding-bottom: 40px;
+font-size: 40px;
+}
+.page31 div{
+  width: 80%;
+  padding-bottom: 40px;
+background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding-bottom: 40px;
+
+}
+.page31 img{
+  width: 100%;
+  border-radius: 5px;
+  height: 200px;
+  
+}
+
+.page31 h6{
+  margin: 20px 30px 10px;
+  font-weight: 100;
+}
+
+ .page31  a{
+    display: inline-block;
+    width: 75%;
+    font-size: 20px;
+    margin-left: 30px;
+     text-decoration: none;
+     color: #444444;
+     margin-bottom: 10px;
+  } 
+
+ .page31 div a:hover{
+     color: hsl(136, 65%, 51%);
+   }
+
+.page31 p{
+  margin-left: 30px;
+  width: 85%;
+Margin-bottom: 30px; 
+}
+.page4{
+
+  width: 100%;
+  background-color:  hsl(233, 26%, 24%);
+  text-align: center;
+padding: 50px 0;
+
+
+}
+#page40-1 img{
+width: 40%;
+
+
+}
+
+.page41 img{
+  width: 7%;
+  margin-right: 15px;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.page42 {
+ margin-top: 20px;
+
+}
+.page42 ul{
+list-style: none;
+font-size: 18px;
+margin: -20px;
+display: inline-block;
+}
+.page42 li{
+  
+  margin: 20px 0;
+}
+
+
+.page42 a{
+  color:#ffffff;
+  text-decoration: none;
+  
+}
+.page42 a:hover{
+  color:hsl(136, 65%, 51%);
+ 
+  
+}
+
+.page44 {
+ 
+margin-top: 40px ;
+
+
+}
+.ho1 {
+  text-decoration:none;
+color:rgb(255, 255, 255);
+background: linear-gradient(120deg,hsl(136, 65%, 51%) 5%, hsl(192, 70%, 51%) 60%);
+border-radius: 30px 30px;
+font-size: 18px;
+padding:15px 30px;
+display: inline-block;
+}
+.ho1:hover{
+  background: linear-gradient(120deg,hsla(136, 65%, 51%, 0.564) 5%, hsla(192, 70%, 51%, 0.568) 60%);
+}
+
+.page44 p{
+  margin-top: 30px;
+
+}
+
+}

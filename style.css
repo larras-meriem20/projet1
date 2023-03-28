@@ -422,9 +422,6 @@ width: 200px;
   background-repeat: no-repeat;
   background-position:right ;
   background-size: 100%;
-  position: absolute;
-  top:0;
-  z-index: 4;
   background-image: url("bg-intro-mobile.svg");
 }
 
@@ -442,8 +439,6 @@ width: 200px;
 }
 .page12{
   width: 100%;
-  position: absolute;
-  top:700px;
   text-align: center;
 }
 .page12 h1{
